@@ -1,4 +1,4 @@
-package task_maven;
+package mavenexample;
 
 public class Sweets extends Candy {
 

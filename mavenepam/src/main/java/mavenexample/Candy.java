@@ -1,4 +1,4 @@
-package task_maven;
+package mavenexample;
 
 public abstract class Candy {
 	String vName;
