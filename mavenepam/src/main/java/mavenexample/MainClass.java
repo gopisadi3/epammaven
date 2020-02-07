@@ -40,8 +40,8 @@ public class MainClass {
 				break;
 			}
 		}while(flag);
-		System.out.println("Number of items in gift : " + g.getNumberOfCandies());
-		for(Candy c : g.getAllCandies()) {
+		System.out.println(" items in gift : " + g.getNumberOfCandies());
+		for(Candies c : g.getAllCandies()) {
 			c.mygift();
 		}
 	}

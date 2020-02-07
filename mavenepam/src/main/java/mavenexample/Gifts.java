@@ -3,13 +3,13 @@ package mavenexample;
 import java.util.*;
 
 public class Gifts {
-	List<Candy> candies;
+	List<Candies> candies;
 
 	Gifts() {
-		candies = new ArrayList<Candy>();
+		candies = new ArrayList<Candies>();
 	}
      //adding candies to list
-	public void addCandy(Candy candy) throws NullPointerException {
+	public void addCandy(Candies candy) throws NullPointerException {
 		if (candy != null)
 			candies.add(candy);
 		else
@@ -23,7 +23,7 @@ public class Gifts {
 			throw new NullPointerException();
 	}
 
-	public List<Candy> getAllCandies() throws NullPointerException {
+	public List<Candies> getAllCandies() throws NullPointerException {
 		if (candies != null)
 			return candies;
 		else

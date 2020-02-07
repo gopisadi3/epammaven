@@ -1,6 +1,6 @@
 package mavenexample;
 
-public abstract class Candy {
+public abstract class Candies {
 	String vName;
 	String mfacturer;
 

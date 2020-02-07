@@ -1,6 +1,6 @@
 package mavenexample;
 
-public class Chocolates extends Candy {
+public class Chocolates extends Candies {
 
 	Chocolates(String varientName, String manufacturer) {
 		this.vName = varientName;
@@ -8,7 +8,8 @@ public class Chocolates extends Candy {
 	}
 
 	public void mygift() {
-		System.out.println(" chocolate " + vName + "manufacturer " + mfacturer);
+		System.out.println(" chocolate " + vName );
+		System.out.println( "manufacturer " + mfacturer);
 	}
 
 }
