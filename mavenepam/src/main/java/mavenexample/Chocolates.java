@@ -8,8 +8,8 @@ public class Chocolates extends Candies {
 	}
 
 	public void mygift() {
-		System.out.println(" chocolate " + vName );
-		System.out.println( "manufacturer " + mfacturer);
+		System.out.println( vName );
+		System.out.println(  mfacturer);
 	}
 
 }

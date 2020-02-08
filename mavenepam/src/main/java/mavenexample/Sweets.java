@@ -8,7 +8,7 @@ public class Sweets extends Candies {
 	}
 
 	public void mygift() {
-		System.out.println("sweet" + vName + "manufacturere" + mfacturer);
+		System.out.println(vName);
 	}
 
 }
